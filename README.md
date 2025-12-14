@@ -39,6 +39,6 @@ The database supports complex queries for valuable library insights, such as:
  🚀 How to Explore This Project
 As this is a database project, the best way to review it is by examining the SQL scripts.
 
-1.  **Review the Schema:** Open the main `LIBRARY-MANAGEMENT-SYSTEM.sql` file. Executing this script in **SQL Server Management Studio (SSMS)** or **Azure Data Studio** will recreate the entire database structure.
-2.  **Run Sample Queries:** The `LIBRARY-MANAGEMENT-SYSTEM.sql` file contains example `SELECT` statements that demonstrate the system's reporting capabilities. 
+1.  **Review the Schema:** Open the main (`LIBRARY-MANAGEMENT-SYSTEM.sql`) file. Executing this script in **SQL Server Management Studio (SSMS)** or **Azure Data Studio** will recreate the entire database structure.
+2.  **Run Sample Queries:** The (`LIBRARY-MANAGEMENT-SYSTEM.sql`) file contains example `SELECT` statements that demonstrate the system's reporting capabilities. 
 
