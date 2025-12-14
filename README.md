@@ -15,7 +15,7 @@ The system is built around several core tables that reflect real-world library e
 *   **`Members`**: Holds library member information and their membership status.
 *   **`Loans`**: The central transaction table linking `Books` and `Members`, recording check-out/return dates.
 *   **`Fines`**: Tracks any overdue fines associated with a specific loan.
-
+However, there are more tables as well that deal with borrowing,etc.
 **Design Principle:** The schema was normalized to the Third Normal Form (3NF) to eliminate data redundancy and ensure integrity through the use of primary and foreign key constraints.
 
  ✨ Key Features & Functionality
