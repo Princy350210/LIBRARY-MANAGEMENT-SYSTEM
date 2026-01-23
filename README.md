@@ -1,15 +1,15 @@
 # LIBRARY MANAGEMENT SYSTEM
 
 
-📋 Project Overview
+ Project Overview
 This is a fully-functional, relational database system built with **Microsoft SQL Server** and **SQL (T-SQL)**. It is designed to automate and manage the core operations of a library, including book inventory tracking, member registrations, loan transactions, and fine calculations. The project demonstrates strong skills in database design, query optimization, and implementing business logic directly within the database layer.
 
- 🛠️ Technologies Used
+  Technologies Used
 *   **Database System:** Microsoft SQL Server
 *   **Core Language:** SQL / Transact-SQL (T-SQL)
 *   **Key Concepts Applied:** Relational Schema Design, Data Normalization (3NF), Stored Procedures, User-Defined Functions, Constraints (Primary/Foreign Keys, CHECK), Indexing for Query Performance, and Triggers.
 
-🗄️ Database Schema & Design
+ Database Schema & Design
 The system is built around several core tables that reflect real-world library entities and their relationships:
 *   **`Books`**: Stores inventory details (ISBN, Title, Author, Category, Status).
 *   **`Members`**: Holds library member information and their membership status.
@@ -18,7 +18,7 @@ The system is built around several core tables that reflect real-world library e
 However, there are more tables as well that deal with borrowing,etc.
 **Design Principle:** The schema was normalized to the Third Normal Form (3NF) to eliminate data redundancy and ensure integrity through the use of primary and foreign key constraints.
 
- ✨ Key Features & Functionality
+  Key Features & Functionality
  1. Core Data Operations
 *   **Book Catalog Management:** Insert, update, and search for books by various attributes (Title, Author, Category).
 *   **Member Management:** Register new members and update their profiles.
@@ -36,8 +36,8 @@ The database supports complex queries for valuable library insights, such as:
 *   "Books that are currently available."
 *   "Total fine revenue collected in a period."
 
- 🚀 How to Explore This Project
-As this is a database project, the best way to review it is by examining the SQL scripts.
+  How to Explore This Project
+As this is a database project, the best way to review it is by examining the SQL scripts:
 
 1.  **Review the Schema:** Open the main (`LIBRARY-MANAGEMENT-SYSTEM.sql`) file. Executing this script in **SQL Server Management Studio (SSMS)** or **Azure Data Studio** will recreate the entire database structure.
 2.  **Run Sample Queries:** The (`LIBRARY-MANAGEMENT-SYSTEM.sql`) file contains example `SELECT` statements that demonstrate the system's reporting capabilities. 
